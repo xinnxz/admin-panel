@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaChevronCircleLeft, FaChevronLeft, FaChevronRight, FaRegCalendar, FaRegChartBar, FaRegSun, FaStickyNote, FaTachometerAlt, FaWrench } from "react-icons/fa"
+import { FaBold, FaBolt, FaChevronCircleLeft, FaChevronLeft, FaChevronRight, FaRegCalendar, FaRegChartBar, FaRegSun, FaStickyNote, FaTachometerAlt, FaWrench } from "react-icons/fa"
 
 const Sidebar = () => {
     return (
@@ -55,6 +55,11 @@ const Sidebar = () => {
                     <div className='h-[40px] w-[40px] bg-[#3c5ec1] rounded-full flex items-center justify-center cursor-pointer'>
                         <FaChevronLeft color='white'/>
                     </div>
+                </div>
+                <div className='bg-[#395cbf] mt-[15px] flex items-center justify-center flex-col py-[15px] px-[10px] gap-[15px] rounded-[3px]'>
+                    <FaBolt color='white'/>
+                    <p className='text-[12px] leading-[18px] font-normal text-white/[0.4] text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quisquam!</p>
+                    <button className='bg-[#17a673] text-white items-center justify-center h-[30px] w-full rounded-xl text-[14px] leading-[21px] font-normal'>Upgrade</button>
                 </div>
             </div>
         </div>
